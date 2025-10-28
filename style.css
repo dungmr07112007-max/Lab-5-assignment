@@ -1,0 +1,135 @@
+/* Kiểu dáng chung */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+
+  /* === Bài tập 10: Tùy chỉnh Phông chữ === */
+  font-family: "Georgia", serif; /* */
+  font-size: 16px; /* */
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Phần Header */
+.header {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+
+  /* === Bài tập 4: Thay đổi Bảng màu === */
+  border-bottom: 4px solid #28a745; /* Đã đổi từ #007acc */
+}
+
+.header img {
+  /* === Bài tập 8: Tạo kiểu cho ảnh (đã thực hiện inline) === */
+  /* Bạn có thể di chuyển các kiểu inline từ Bài tập 8 vào đây: */
+  /* width: 150px; */
+  /* height: 150px; */
+  /* border-radius: 50%; */
+  /* object-fit: cover; */
+  /* margin-bottom: 15px; */
+}
+
+.header h1 {
+  margin: 0;
+  color: #333;
+
+  /* === Bài tập 10: Tùy chỉnh Phông chữ === */
+  font-size: 36px; /* */
+  font-family: "Georgia", serif; /* */
+}
+
+.header p {
+  margin: 5px 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Các mục */
+h2 {
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+  margin-top: 30px;
+
+  /* === Bài tập 10: Tùy chỉnh Phông chữ === */
+  font-family: "Georgia", serif; /* */
+}
+
+/* === Bài tập 3: Tạo kiểu Danh sách Kỹ năng === */
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-list li {
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: #fff;
+
+  /* === Bài tập 4: Thay đổi Bảng màu === */
+  background-color: #28a745; /* Đã đổi từ #007acc */
+}
+
+/* === Bài tập 5, 6, 11: Tạo kiểu cho Dự án & Mục Kinh nghiệm === */
+.project,
+.experience-item,
+.education-item {
+  background-color: #fcfcfc;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+
+  /* === Bài tập 11: Điều chỉnh Khoảng cách === */
+  margin: 20px 0; /* */
+  padding: 25px; /* */
+}
+
+/* === Bài tập 12: Tạo kiểu Mục mới === */
+/* Tái sử dụng các kiểu tương tự để nhất quán */
+.hobbies-section {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 25px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* === Bài tập 9: Tạo kiểu Siêu liên kết === */
+a {
+  text-decoration: none;
+
+  /* === Bài tập 4: Thay đổi Bảng màu (Áp dụng cho liên kết) === */
+  color: #28a745; /* Đã đổi từ #007acc */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.project-link {
+  font-weight: bold;
+  margin-right: 10px;
+}
